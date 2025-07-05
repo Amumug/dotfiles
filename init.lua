@@ -42,9 +42,15 @@ vim.cmd [[
       \ 'typescriptreact': ['tsserver'],
       \ }
   let g:ale_fixers = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ }
+     \ 'javascript': ['prettier'],
+     \ 'typescript': ['prettier'],
+     \ 'typescriptreact': ['prettier'],
+     \ 'json': ['prettier'],
+     \ 'markdown': ['prettier'],
+     \ 'css': ['prettier'],
+     \ 'lua': ['stylua'],
+     \ }
+
   let g:ale_fix_on_save = 1
 ]]
 
